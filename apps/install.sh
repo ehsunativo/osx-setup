@@ -10,56 +10,28 @@ custom_install=(
   "wget"
   "vim"
   "git"
-  "virtualbox"
-  "chefdk"
-  "ruby"
-  "vagrant"
   "packer"
   "iterm2"
-  "atom"
   "bash"
-  "osx-terminal"
   "python"
-  "nodejs"
   "docker"
-  "java"
-  "hadoop"
 )
 
 # list cask apps for basic install
 basic_brew_install=(
   "awscli"
-  "cmake"
   "csshx"
   "curl"
-  "go"
-  "dep"
   "jq"
-  "sbt"
-  "tmux"
 )
 
 # list cask apps for basic install
 basic_cask_install=(
-  "adobe-acrobat-reader"
   "aerial"
-  "anaconda"
-  "apache-directory-studio"
   "appcleaner"
   "caffeine"
-  "dropbox"
-  "firefox"
-  "flux"
-  "google-backup-and-sync"
-  "google-chrome"
-  "intellij-idea-ce"
-  "meld"
-  "postman"
-  "pycharm-ce"
-  "slack"
   "spectacle"
   "spotify"
-  "transmission"
   "wireshark"
 )
 
