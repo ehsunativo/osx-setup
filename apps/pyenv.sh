@@ -20,7 +20,5 @@ fi
 # install pyenv
 if ! brew ls | grep "^pyenv-virtualenv$" > /dev/null 2>&1; then
   echo "==> Installing pyenv-virtualenv";
-  brew install pyenv
-  brew install openssl readline sqlite3 xz zlib
-  sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
+  brew install pyenv-virtualenv
 fi
