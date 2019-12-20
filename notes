@@ -1,0 +1,69 @@
+Homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+Homebrew Cask
+brew tap caskroom/cask
+
+Spectacle
+brew cask install spectacle
+
+Alfred
+brew cask install alfred
+
+Alfred workflows
+DevDocs: https://github.com/yannickglt/alfred-devdocs
+GitHub: https://github.com/gharlan/alfred-github-workflow
+StackOverflow: http://www.packal.org/workflow/stackoverflow-search
+Timezones: http://geekzone.philosophicalzombie.net/post/45823505821/alfred-workflow-timezones-a-customizable-world
+
+VSCode
+brew cask install visual-studio-code
+
+Docker
+brew cask install docker
+
+Iterm2
+brew cask install iterm2
+
+bash_profile
+export PATH="/usr/local/bin:/usr/local/sbin:${PATH}"
+export ANSIBLE_VAULT_PASSWORD_FILE=~/.ansible/vault_pass.txt
+export kibana_user=alerting_user
+export kibana_pass='Alerting_user720!@DevOps'
+
+.vimrc
+filetype off
+filetype plugin indent on
+let g:solarized_termcolors=256
+
+.gitconfig
+[user]
+  name = Eric Hsu
+  email = ehsu@nativo.net
+[core]
+  editor = vim
+[credential]
+  helper = osxkeychain
+[alias]
+  ls = log --oneline --decorate -n 20 --color=always
+
+Mission Control
+https://spigotdesign.com/prevent-mission-control-rearranging-desktop-spaces
+
+Cut and paste
+https://twitter.com/allymacdonald/status/1024656834571976705
+
+Git Ignore Global
+.gitignore_global
+
+SSH Keys
+.ssh
+
+Aws Config
+.aws_config
+
+Trash
+brew install trash
+
+LiceCap
+brew cask install licecap
