@@ -23,6 +23,7 @@ basic_brew_install=(
   "csshx"
   "curl"
   "jq"
+  "trash"
 )
 
 # list cask apps for basic install
@@ -33,6 +34,8 @@ basic_cask_install=(
   "spectacle"
   "spotify"
   "wireshark"
+  "alfred"
+  "licecap"
 )
 
 # install selected custom apps
