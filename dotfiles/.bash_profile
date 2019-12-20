@@ -10,6 +10,12 @@ export PATH="/usr/local/bin:/usr/local/sbin:${PATH}"
 # APPLICATIONS
 #------------------------------------------------------------------------------
 
+# -- pyenv --
+if command -v pyenv 1>/dev/null 2>&1; then eval "$(pyenv init -)"; fi
+
+# -- pyenv-virtualenv --
+if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
+
 # -- homebrew --
 # install brew cask application in global /Applications directory
 export HOMEBREW_CASK_OPTS="--appdir=/Applications";
