@@ -15,6 +15,7 @@ custom_install=(
   "bash"
   "python"
   "docker"
+  "pyenv"
 )
 
 # list cask apps for basic install
