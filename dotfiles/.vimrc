@@ -70,7 +70,7 @@ set shiftround                              " round indent to a multiple of 'shi
 syntax on
 
 " set colorscheme
-colorscheme solarized
+colorscheme dracula
 set background=dark
 highlight Normal ctermbg=black ctermfg=white
 highlight clear SignColumn
