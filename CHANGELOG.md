@@ -135,7 +135,7 @@ BUG FIXES:
 ## [0.3.0](https://github.com/hansohn/osx-setup/compare/0.2.0..0.3.0) (Oct 24, 2016)
 
 FEATURES:
-- brew cask install alfred
+- brew install alfred --cask
 - add salt, scala, and jinja functionality to vim
 - update flushdns bash alias for el capitan and newer os versions
 

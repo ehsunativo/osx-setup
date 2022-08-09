@@ -3,7 +3,7 @@
 # ----- general information -----
 FULL_NAME="Eric Hsu";
 EMAIL_ADDRESS="ehsu@nativo.com";
-PHONE_NUMBER="(626) 385-8095";
+PHONE_NUMBER="(626) 272-2766";
 
 # ----- osx -----
 SCREENSHOT_LOC="${HOME}/Pictures/Screenshots";

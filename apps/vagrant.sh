@@ -18,9 +18,9 @@ vagrant_plugins=(
 );
 
 # install vagrant
-if ! brew cask ls | grep "^vagrant$" > /dev/null 2>&1; then
+if ! brew ls --cask | grep "^vagrant$" > /dev/null 2>&1; then
   echo "==> Installing vagrant";
-  brew cask install vagrant;
+  brew install vagrant --cask;
 fi
 
 # install vagrant plugins

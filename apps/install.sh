@@ -13,12 +13,11 @@ custom_install=(
   "packer"
   "iterm2"
   "bash"
-  "python"
   "docker"
   "pyenv"
 )
 
-# list cask apps for basic install
+# list brew apps for basic install
 basic_brew_install=(
   "awscli"
   "csshx"
@@ -54,8 +53,8 @@ done
 
 # install selected cask apps
 for cask in ${basic_cask_install[@]}; do
-  if ! brew cask ls | grep "^${cask}$" > /dev/null 2>&1; then
+  if ! brew ls --cask | grep "^${cask}$" > /dev/null 2>&1; then
     echo "==> Installing ${cask}";
-    brew cask install ${cask};
+    brew install ${cask} --cask;
   fi
 done
