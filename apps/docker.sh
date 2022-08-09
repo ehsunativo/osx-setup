@@ -10,9 +10,9 @@ source ${SCRIPTPATH}/../config.sh;
 source ${SCRIPTPATH}/homebrew.sh;
 
 # install docker
-if ! brew cask ls | grep "^docker$" > /dev/null 2>&1; then
+if ! brew ls --cask | grep "^docker$" > /dev/null 2>&1; then
   echo "==> Installing Docker";
-  brew cask install docker;
+  brew install docker --cask;
 fi
 
 # install docker-completion

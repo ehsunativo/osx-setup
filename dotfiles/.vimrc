@@ -72,6 +72,9 @@ syntax on
 " set colorscheme
 colorscheme solarized
 set background=dark
+highlight Normal ctermbg=black ctermfg=white
+highlight clear SignColumn
+highlight GitGutterAdd ctermbg=black
 
 " set encoding
 set encoding=utf8

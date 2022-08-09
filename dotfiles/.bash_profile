@@ -5,6 +5,7 @@
 # homebrew when available.
 
 export PATH="/usr/local/bin:/usr/local/sbin:${PATH}"
+export BASH_SILENCE_DEPRECATION_WARNING=1
 
 #------------------------------------------------------------------------------
 # APPLICATIONS
@@ -37,7 +38,7 @@ fi
 
 # -- chefdk --
 # populate bash path with chefdk binaries
-if [[ $(echo `brew cask list` | grep -i "chefdk") ]]; then
+if [[ $(echo `brew list --cask` | grep -i "chefdk") ]]; then
   eval "$(chef shell-init bash)";
   export EDITOR="VIM";
 fi

@@ -17,9 +17,9 @@ if ! brew tap | grep -i -q "chef/chef"; then
 fi
 
 # install chefdk
-if ! brew cask ls | grep "^chefdk$" > /dev/null 2>&1; then
+if ! brew ls --cask | grep "^chefdk$" > /dev/null 2>&1; then
   echo "==> Installing Chef Development Kit";
-  brew cask install 'chef/chef/chefdk';
+  brew install 'chef/chef/chefdk' --cask;
   echo "==> Update PATH with embedded Chef appliations";
   eval "$(chef shell-init bash)";
   echo "==> Configure Knife SSL";

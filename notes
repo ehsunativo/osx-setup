@@ -5,10 +5,10 @@ Homebrew Cask
 brew tap caskroom/cask
 
 Spectacle
-brew cask install spectacle
+brew install spectacle --cask
 
 Alfred
-brew cask install alfred
+brew install alfred --cask
 
 Alfred workflows
 DevDocs: https://github.com/yannickglt/alfred-devdocs
@@ -17,13 +17,13 @@ StackOverflow: http://www.packal.org/workflow/stackoverflow-search
 Timezones: http://geekzone.philosophicalzombie.net/post/45823505821/alfred-workflow-timezones-a-customizable-world
 
 VSCode
-brew cask install visual-studio-code
+brew install visual-studio-code --cask
 
 Docker
-brew cask install docker
+brew install docker --cask
 
 Iterm2
-brew cask install iterm2
+brew install iterm2 --cask
 
 bash_profile
 export PATH="/usr/local/bin:/usr/local/sbin:${PATH}"
@@ -64,4 +64,4 @@ Trash
 brew install trash
 
 LiceCap
-brew cask install licecap
+brew install licecap --cask
